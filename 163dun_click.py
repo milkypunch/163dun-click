@@ -5,7 +5,7 @@ import execjs
 import base64
 import random
 
-# 需要run 11.server.py
+
 
 def get_params():
     params_dict = requests.get("http://127.0.0.1:5000/get_api_params").json()
